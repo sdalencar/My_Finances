@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sdainfo.myfinances">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyFinances">
+        <activity
+            android:name=".act.activity.DespesaActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/despesaMyFinances" />
+
+        <activity
+            android:name=".act.activity.ReceitaActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/receitaMyFinances" />
+
+        <activity
+            android:name=".act.activity.PrincipalActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.MyFinances.NoActionBar" />
+        <activity
+            android:name=".act.activity.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".act.activity.CadastroActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".act.activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Intro">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

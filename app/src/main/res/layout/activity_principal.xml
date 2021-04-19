@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".act.activity.PrincipalActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp"
+        android:theme="@style/Theme.MyFinances.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_principal_activity"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/Theme.MyFinances.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_principal" />
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fab_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="10dp"
+        app:menu_icon="@drawable/ic_menu"
+        app:menu_colorNormal="@color/orange"
+        app:menu_colorPressed="@color/orange_dark"
+        >
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_receita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_entrada"
+            app:fab_label="@string/receita"
+            app:fab_colorNormal="@color/green"
+            app:fab_colorPressed="@color/green_dark"
+            app:fab_size="mini"
+            android:onClick="menu_principal"
+            />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_despesa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_saida"
+            app:fab_label="@string/despesa"
+            app:fab_colorNormal="@color/red"
+            android:onClick="menu_principal"
+            app:fab_size="mini"
+            app:fab_colorPressed="@color/red_dark"
+            />
+
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

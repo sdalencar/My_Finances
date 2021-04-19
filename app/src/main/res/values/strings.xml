@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">My Finances</string>
+    <string name="todo">TODO</string>
+    <string name="cuide_financas">Cuide de suas finanças</string>
+    <string name="control">você no controle do seu dinheiro</string>
+    <string name="descubra_o_gargalo_de_sua_renda">Descubra o gargalo</string>
+    <string name="saiba_exatamente_pra_onde_foi_o">saiba exatamente onde foi o $</string>
+    <string name="pague_suas_contas_em_dia">Pague suas contas em dia</string>
+    <string name="receba_aviso_sobre_o_vencimento">Receba aviso sobre o vencimento</string>
+    <string name="tudo_organizado_e_voc_no_controle">Tudo certo e você no controle</string>
+    <string name="criar_contaC">Crie a sua conta grátis</string>
+    <string name="juntese">Junte-se a milhares de pessoas \ne comece a já a se controlar</string>
+    <string name="cadastrar">CADASTRE-SE</string>
+    <string name="tenho_cadastro">já tenho cadastro</string>
+    <string name="senha">  Senha</string>
+    <string name="e_mail">  E-mail</string>
+    <string name="nome">  Nome</string>
+    <string name="termo_uso">termos de uso</string>
+    <string name="cadastra">CADASTRAR</string>
+    <string name="acessar">Acesse a sua conta</string>
+    <string name="entrar">ENTRAR</string>
+    <string name="title_activity_principal">PrincipalActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="receita">Receita</string>
+    <string name="despesa">Despesa</string>
+    <string name="r_0_00">R$ 0.00</string>
+    <string name="ex_dd_mm_aaaa">ex: dd/mm/aaaa</string>
+    <string name="ex_categoria">ex: categoria</string>
+    <string name="ex_sal_rio_mensal">ex: salário mensal</string>
+    <string name="logout">Logout</string>
+    <string name="ex_tipo">ex: tipo</string>
+    <string name="carregando">Carregando...</string>
+    <string name="saldo_geral">saldo Geral</string>
+    <string name="sair">Sair</string>
+    <string name="categoria">Categoria</string>
+
+</resources>
